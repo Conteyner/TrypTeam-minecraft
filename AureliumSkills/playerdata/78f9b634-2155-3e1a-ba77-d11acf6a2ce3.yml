@@ -1,0 +1,63 @@
+uuid: 78f9b634-2155-3e1a-ba77-d11acf6a2ce3
+skills:
+  farming:
+    level: 4
+    xp: 380.8600000000014
+  foraging:
+    level: 3
+    xp: 328.7399999999999
+  mining:
+    level: 12
+    xp: 3361.029999995551
+  fishing:
+    level: 5
+    xp: 864.0
+  excavation:
+    level: 6
+    xp: 1869.1599999998884
+  archery:
+    level: 1
+    xp: 64.0
+  defense:
+    level: 7
+    xp: 114.82352386117202
+  fighting:
+    level: 5
+    xp: 33.65000000000034
+  endurance:
+    level: 11
+    xp: 1659.0
+  agility:
+    level: 6
+    xp: 401.20000000000084
+  alchemy:
+    level: 1
+    xp: 0.0
+  enchanting:
+    level: 5
+    xp: 81.79999999999995
+  sorcery:
+    level: 5
+    xp: 190.0
+  healing:
+    level: 1
+    xp: 0.0
+  forging:
+    level: 7
+    xp: 1890.0
+mana: 48.0
+locale: en
+ability_data:
+  xp_convert:
+    xp: 18.934512976401336
+  first_strike:
+    counter: 0
+stat_modifiers:
+  '0':
+    name: mining-stamina
+    stat: toughness
+    value: 2.0
+  '1':
+    name: AbilityModifier-EnchantedStrength
+    stat: strength
+    value: 2.0
