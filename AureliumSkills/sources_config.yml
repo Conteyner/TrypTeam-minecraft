@@ -1,87 +1,87 @@
 sources:
   farming:
-    wheat: 5.0
-    potato: 5.5
-    carrot: 5.7
-    beetroot: 10.0
-    nether_wart: 10.0
-    pumpkin: 15.4
-    melon: 13.4
-    sugar_cane: 11.7
-    bamboo: 10.25
-    cocoa: 14.0
-    cactus: 16.0
-    brown_mushroom: 17.0
-    red_mushroom: 17.0
-    kelp: 10.3
-    sea_pickle: 14.0
-    sweet_berry_bush: 12.5
-    glow_berries: 14.5
+    wheat: 50.0
+    potato: 50.5
+    carrot: 50.7
+    beetroot: 100.0
+    nether_wart: 100.0
+    pumpkin: 500.4
+    melon: 500.4
+    sugar_cane: 50.7
+    bamboo: 100.25
+    cocoa: 50.0
+    cactus: 1000.0
+    brown_mushroom: 170.0
+    red_mushroom: 170.0
+    kelp: 100.3
+    sea_pickle: 140.0
+    sweet_berry_bush: 120.5
+    glow_berries: 140.5
   foraging:
-    oak_log: 14.0
-    spruce_log: 14.0
-    birch_log: 14.0
-    jungle_log: 14.0
-    acacia_log: 14.0
-    dark_oak_log: 14.0
-    mangrove_log: 14.0
-    oak_leaves: 10.4
-    spruce_leaves: 10.4
-    birch_leaves: 10.4
-    jungle_leaves: 10.4
-    acacia_leaves: 10.4
-    dark_oak_leaves: 10.4
-    mangrove_leaves: 10.4
-    crimson_stem: 15.0
-    warped_stem: 15.0
-    nether_wart_block: 10.5
-    warped_wart_block: 10.5
-    moss_block: 13.2
-    moss_carpet: 10.2
-    azalea: 17.0
-    flowering_azalea: 19.1
-    azalea_leaves: 11.5
-    flowering_azalea_leaves: 12.0
-    mangrove_roots: 12.0
+    oak_log: 140.0
+    spruce_log: 140.0
+    birch_log: 140.0
+    jungle_log: 140.0
+    acacia_log: 140.0
+    dark_oak_log: 140.0
+    mangrove_log: 140.0
+    oak_leaves: 100.4
+    spruce_leaves: 100.4
+    birch_leaves: 100.4
+    jungle_leaves: 100.4
+    acacia_leaves: 100.4
+    dark_oak_leaves: 100.4
+    mangrove_leaves: 100.4
+    crimson_stem: 150.0
+    warped_stem: 150.0
+    nether_wart_block: 100.5
+    warped_wart_block: 100.5
+    moss_block: 130.2
+    moss_carpet: 100.2
+    azalea: 170.0
+    flowering_azalea: 190.1
+    azalea_leaves: 110.5
+    flowering_azalea_leaves: 120.0
+    mangrove_roots: 120.0
   mining:
-    stone: 5.2
-    cobblestone: 10.2
-    andesite: 15.2
-    diorite: 15.2
-    granite: 15.2
-    coal_ore: 15.0
-    nether_quartz_ore: 5.8
-    iron_ore: 20.8
-    lapis_ore: 150.6
-    redstone_ore: 15.9
-    gold_ore: 30.8
-    diamond_ore: 500.3
-    emerald_ore: 1000.0
-    terracotta: 10.5
-    white_terracotta: 10.5
-    orange_terracotta: 10.5
-    yellow_terracotta: 10.5
-    light_gray_terracotta: 10.5
-    brown_terracotta: 10.5
-    red_terracotta: 10.5
-    netherrack: 10.1
-    blackstone: 10.3
-    basalt: 10.4
-    magma_block: 10.7
-    nether_gold_ore: 110.0
-    ancient_debris: 1500.0
-    end_stone: 10.5
-    obsidian: 110.0
-    deepslate: 10.4
-    copper_ore: 13.5
-    tuff: 10.5
-    calcite: 10.8
-    smooth_basalt: 10.8
-    amethyst_block: 14.0
-    amethyst_cluster: 16.0
-    deepslate_coal_ore: 11.2
-    deepslate_iron_ore: 12.2
-    deepslate_copper_ore: 14.2
+    stone: 80.2
+    cobblestone: 100.2
+    andesite: 150.2
+    diorite: 150.2
+    granite: 150.2
+    coal_ore: 150.0
+    nether_quartz_ore: 50.8
+    iron_ore: 200.8
+    lapis_ore: 1500.6
+    redstone_ore: 1500.9
+    gold_ore: 300.8
+    diamond_ore: 5000.3
+    emerald_ore: 10000.0
+    terracotta: 100.5
+    white_terracotta: 100.5
+    orange_terracotta: 100.5
+    yellow_terracotta: 100.5
+    light_gray_terracotta: 100.5
+    brown_terracotta: 100.5
+    red_terracotta: 100.5
+    netherrack: 100.1
+    blackstone: 100.3
+    basalt: 100.4
+    magma_block: 100.7
+    nether_gold_ore: 1100.0
+    ancient_debris: 15000.0
+    end_stone: 100.5
+    obsidian: 1100.0
+    deepslate: 100.4
+    copper_ore: 130.5
+    tuff: 100.5
+    calcite: 100.8
+    smooth_basalt: 100.8
+    amethyst_block: 140.0
+    amethyst_cluster: 106.0
+    deepslate_coal_ore: 110.2
+    deepslate_iron_ore: 120.2
+    deepslate_copper_ore: 140.2
     deepslate_gold_ore: 121.4
     deepslate_redstone_ore: 17.1
     deepslate_lapis_ore: 136.7
@@ -93,48 +93,48 @@ sources:
     blue_ice: 11.3
     reinforced_deepslate: 1125.0
   fishing:
-    cod: 25.0
-    salmon: 60.0
-    tropical_fish: 750.0
-    pufferfish: 115.0
-    treasure: 1000.0
-    junk: 30.0
+    cod: 250.0
+    salmon: 600.0
+    tropical_fish: 7500.0
+    pufferfish: 1150.0
+    treasure: 10000.0
+    junk: 300.0
     rare: 2000.0
     epic: 5000.0
   excavation:
-    dirt: 10.3
-    grass_block: 10.7
-    sand: 10.4
-    gravel: 11.5
-    mycelium: 13.7
-    clay: 12.4
-    soul_sand: 12.7
-    coarse_dirt: 12.3
-    podzol: 12.5
-    soul_soil: 13.0
-    red_sand: 10.7
-    rooted_dirt: 15.6
-    mud: 10.5
-    muddy_mangrove_roots: 12.5
+    dirt: 80.3
+    grass_block: 80.7
+    sand: 80.4
+    gravel: 85.5
+    mycelium: 85.7
+    clay: 100.4
+    soul_sand: 100.7
+    coarse_dirt: 100.3
+    podzol: 100.5
+    soul_soil: 100.0
+    red_sand: 100.7
+    rooted_dirt: 100.6
+    mud: 100.5
+    muddy_mangrove_roots: 100.5
   archery:
-    player: 50.0
-    bat: 1.0
-    cat: 1.0
-    chicken: 1.0
-    cod: 1.0
-    cow: 2.0
-    donkey: 2.0
-    fox: 3.0
-    giant: 10.0
-    horse: 2.0
-    mooshroom: 2.0
-    mule: 2.0
-    ocelot: 1.0
-    parrot: 1.0
-    pig: 2.0
-    rabbit: 1.0
-    salmon: 1.0
-    sheep: 2.0
+    player: 5000.0
+    bat: 100.0
+    cat: 100.0
+    chicken: 100.0
+    cod: 100.0
+    cow: 200.0
+    donkey: 200.0
+    fox: 300.0
+    giant: 100.0
+    horse: 20.0
+    mooshroom: 20.0
+    mule: 200.0
+    ocelot: 100.0
+    parrot: 10.0
+    pig: 200.0
+    rabbit: 100.0
+    salmon: 10.0
+    sheep: 20.0
     skeleton_horse: 3.0
     snow_golem: 3.0
     squid: 2.0
@@ -184,18 +184,18 @@ sources:
     zoglin: 12.0
     zombie: 7.0
     zombie_villager: 7.0
-    ender_dragon: 7000.0
-    wither: 7000.0
+    ender_dragon: 70000.0
+    wither: 70000.0
     axolotl: 3.5
     glow_squid: 2.5
     goat: 3.0
     allay: 0.2
     frog: 2.0
     tadpole: 0.7
-    warden: 10000.0
+    warden: 100000.0
   defense:
-    mob_damage: 1
-    player_damage: 2
+    mob_damage: 100
+    player_damage: 200
   fighting:
     player: 1000.0
     bat: 11.0
@@ -262,17 +262,17 @@ sources:
     witch: 9.0
     wither_skeleton: 17.0
     zoglin: 12.0
-    zombie: 7.0
+    zombie: 150.0
     zombie_villager: 7.0
-    ender_dragon: 70000.0
-    wither: 70000.0
+    ender_dragon: 570000.0
+    wither: 570000.0
     axolotl: 3.5
     glow_squid: 2.5
     goat: 3.0
     allay: 0.2
     frog: 2.0
     tadpole: 1.2
-    warden: 150000.0
+    warden: 1150000.0
   endurance:
     walk_per_meter: 0.333
     sprint_per_meter: 0.1
@@ -281,42 +281,42 @@ sources:
     jump_per_100: 10
     fall_damage: 2
   alchemy:
-    awkward: 50
-    regular: 100
-    extended: 500
-    upgraded: 1000
-    splash: 1500
-    lingering: 3000
+    awkward: 2500
+    regular: 5000
+    extended: 10000
+    upgraded: 15000
+    splash: 20000
+    lingering: 30000
   enchanting:
     weapon_per_level: 20
     armor_per_level: 20
     tool_per_level: 20
     book_per_level: 20
   sorcery:
-    mana_ability_use: 0.5
-    sculk: 1.0
-    sculk_catalyst: 12.0
-    sculk_shrieker: 27.0
-    sculk_vein: 0.5
-    sculk_sensor: 8.0
+    mana_ability_use: 1000.5
+    sculk: 1000.0
+    sculk_catalyst: 1200.0
+    sculk_shrieker: 2700.0
+    sculk_vein: 1000.5
+    sculk_sensor: 800.0
   healing:
-    drink_regular: 10
-    drink_extended: 15
-    drink_upgraded: 15
-    splash_regular: 20
-    splash_extended: 25
-    splash_upgraded: 25
-    lingering_regular: 30
-    lingering_extended: 35
-    lingering_upgraded: 35
-    golden_apple: 5
-    enchanted_golden_apple: 50
+    drink_regular: 500
+    drink_extended: 1000
+    drink_upgraded: 2000
+    splash_regular: 3000
+    splash_extended: 4000
+    splash_upgraded: 4000
+    lingering_regular: 3000
+    lingering_extended: 3000
+    lingering_upgraded: 3000
+    golden_apple: 1000
+    enchanted_golden_apple: 5000
   forging:
-    combine_books_per_level: 10
-    combine_weapon_per_level: 15
-    combine_armor_per_level: 20
-    combine_tool_per_level: 25
-    grindstone_per_level: 30
+    combine_books_per_level: 5000
+    combine_weapon_per_level: 6500
+    combine_armor_per_level: 10000
+    combine_tool_per_level: 6500
+    grindstone_per_level: 10000
 tags:
   farming:
     bountiful_harvest_applicable:
