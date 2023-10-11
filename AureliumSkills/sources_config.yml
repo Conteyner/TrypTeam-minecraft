@@ -117,113 +117,33 @@ sources:
     mud: 300.5
     muddy_mangrove_roots: 300.5
   archery:
-    player: 5000.0
-    bat: 100.0
-    cat: 100.0
-    chicken: 100.0
-    cod: 100.0
-    cow: 200.0
-    donkey: 200.0
-    fox: 300.0
-    giant: 100.0
-    horse: 20.0
-    mooshroom: 20.0
-    mule: 200.0
-    ocelot: 100.0
-    parrot: 10.0
-    pig: 200.0
-    rabbit: 100.0
-    salmon: 10.0
-    sheep: 20.0
-    skeleton_horse: 3.0
-    snow_golem: 3.0
-    squid: 2.0
-    strider: 3.0
-    tropical_fish: 1.0
-    turtle: 2.0
-    villager: 2.0
-    wandering_trader: 2.0
-    bee: 3.0
-    cave_spider: 5.0
-    dolphin: 3.0
-    enderman: 7.0
-    iron_golem: 17.0
-    llama: 4.0
-    piglin: 5.0
-    panda: 5.0
-    polar_bear: 7.0
-    pufferfish: 1.0
-    spider: 5.0
-    wolf: 4.0
-    zombified_piglin: 4.0
-    blaze: 10.0
-    creeper: 10.0
-    drowned: 7.0
-    elder_guardian: 100.0
-    endermite: 5.0
-    evoker: 35.0
-    ghast: 17.0
-    guardian: 15.0
-    hoglin: 12.0
-    husk: 7.0
-    illusioner: 17.0
-    magma_cube: 12.0
-    phantom: 10.0
-    piglin_brute: 35.0
-    pillager: 12.0
-    ravager: 100.0
-    shulker: 15.0
-    silverfish: 5.0
-    skeleton: 7.0
-    slime: 5.0
-    stray: 8.0
-    vex: 10.0
-    vindicator: 12.0
-    witch: 9.0
-    wither_skeleton: 17.0
-    zoglin: 12.0
-    zombie: 7.0
-    zombie_villager: 7.0
-    ender_dragon: 70000.0
-    wither: 70000.0
-    axolotl: 3.5
-    glow_squid: 2.5
-    goat: 3.0
-    allay: 0.2
-    frog: 2.0
-    tadpole: 0.7
-    warden: 100000.0
-  defense:
-    mob_damage: 30000
-    player_damage: 50000
-  fighting:
     player: 10000.0
-    bat: 1100.0
-    cat: 1100.0
-    chicken: 1100.0
-    cod: 1100.0
-    cow: 1200.0
-    donkey: 1200.0
-    fox: 1300.0
-    giant: 1100.0
-    horse: 1200.0
-    mooshroom: 1200.0
-    mule: 1002.0
-    ocelot: 1001.0
-    parrot: 1001.0
-    pig: 1200.0
-    rabbit: 1100.0
-    salmon: 1100.0
-    sheep: 1200.0
-    skeleton_horse: 13.0
-    snow_golem: 13.0
-    squid: 12.0
-    strider: 13.0
-    tropical_fish: 11.0
-    turtle: 21.0
-    villager: 21.0
-    wandering_trader: 21.0
-    bee: 30.0
+    bat: 10.0
+    cat: 10.0
+    chicken: 50.0
+    cod: 40.0
+    cow: 60.0
+    donkey: 50.0
+    fox: 100.0
+    giant: 100.0
+    horse: 100.0
+    mooshroom: 100.0
+    mule: 100.0
+    ocelot: 100.0
+    parrot: 100.0
+    pig: 120.0
+    rabbit: 110.0
+    salmon: 110.0
+    sheep: 120.0
+    skeleton_horse: 5300.0
+    snow_golem: 130.0
+    squid: 120.0
+    strider: 130.0
+    tropical_fish: 110.0
+    turtle: 210.0
+    villager: 50.0
+    wandering_trader: 51.0
+    bee: 50.0
     cave_spider: 50.0
     dolphin: 30.0
     enderman: 70.0
@@ -249,37 +169,117 @@ sources:
     illusioner: 170.0
     magma_cube: 120.0
     phantom: 100.0
-    piglin_brute: 35.0
-    pillager: 12.0
+    piglin_brute: 350.0
+    pillager: 120.0
     ravager: 100.0
     shulker: 150.0
     silverfish: 50.0
     skeleton: 70.0
-    slime: 5.0
-    stray: 8.0
-    vex: 10.0
-    vindicator: 12.0
-    witch: 9.0
-    wither_skeleton: 17.0
-    zoglin: 12.0
+    slime: 500.0
+    stray: 80.0
+    vex: 100.0
+    vindicator: 120.0
+    witch: 90.0
+    wither_skeleton: 170.0
+    zoglin: 120.0
     zombie: 150.0
-    zombie_villager: 7.0
+    zombie_villager: 700.0
     ender_dragon: 570000.0
     wither: 570000.0
-    axolotl: 3.5
-    glow_squid: 2.5
-    goat: 3.0
-    allay: 0.2
-    frog: 2.0
-    tadpole: 1.2
-    warden: 1150000.0
+    axolotl: 30.5
+    glow_squid: 20.5
+    goat: 30.0
+    allay: 30.2
+    frog: 20.0
+    tadpole: 100.2
+    warden: 9150000.0
+  defense:
+    mob_damage: 30000
+    player_damage: 50000
+  fighting:
+    player: 10000.0
+    bat: 10.0
+    cat: 10.0
+    chicken: 50.0
+    cod: 40.0
+    cow: 60.0
+    donkey: 50.0
+    fox: 100.0
+    giant: 100.0
+    horse: 100.0
+    mooshroom: 100.0
+    mule: 100.0
+    ocelot: 100.0
+    parrot: 100.0
+    pig: 120.0
+    rabbit: 110.0
+    salmon: 110.0
+    sheep: 120.0
+    skeleton_horse: 5300.0
+    snow_golem: 130.0
+    squid: 120.0
+    strider: 130.0
+    tropical_fish: 110.0
+    turtle: 210.0
+    villager: 50.0
+    wandering_trader: 51.0
+    bee: 50.0
+    cave_spider: 50.0
+    dolphin: 30.0
+    enderman: 70.0
+    iron_golem: 107.0
+    llama: 40.0
+    piglin: 50.0
+    panda: 50.0
+    polar_bear: 70.0
+    pufferfish: 10.0
+    spider: 50.0
+    wolf: 40.0
+    zombified_piglin: 40.0
+    blaze: 100.0
+    creeper: 100.0
+    drowned: 70.0
+    elder_guardian: 1000.0
+    endermite: 50.0
+    evoker: 350.0
+    ghast: 170.0
+    guardian: 150.0
+    hoglin: 120.0
+    husk: 70.0
+    illusioner: 170.0
+    magma_cube: 120.0
+    phantom: 100.0
+    piglin_brute: 350.0
+    pillager: 120.0
+    ravager: 100.0
+    shulker: 150.0
+    silverfish: 50.0
+    skeleton: 70.0
+    slime: 500.0
+    stray: 80.0
+    vex: 100.0
+    vindicator: 120.0
+    witch: 90.0
+    wither_skeleton: 170.0
+    zoglin: 120.0
+    zombie: 150.0
+    zombie_villager: 700.0
+    ender_dragon: 570000.0
+    wither: 570000.0
+    axolotl: 30.5
+    glow_squid: 20.5
+    goat: 30.0
+    allay: 30.2
+    frog: 20.0
+    tadpole: 100.2
+    warden: 3150000.0
   endurance:
     walk_per_meter: 100.333
     sprint_per_meter: 200.1
     swim_per_meter: 100
   agility:
-    jump_per_100: 10
-    fall_damage: 2
+    jump_per_100: 100
+    fall_damage: 200
   alchemy:
     awkward: 5000
     regular: 10000
@@ -288,10 +288,10 @@ sources:
     splash: 30000
     lingering: 50000
   enchanting:
-    weapon_per_level: 5000
-    armor_per_level: 5000
-    tool_per_level: 5000
-    book_per_level: 5000
+    weapon_per_level: 8000
+    armor_per_level: 8000
+    tool_per_level: 8000
+    book_per_level: 8000
   sorcery:
     mana_ability_use: 1000.5
     sculk: 1000.0
