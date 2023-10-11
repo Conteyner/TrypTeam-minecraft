@@ -79,7 +79,7 @@ player-list:
   # - 'My third line'
   header:
   - ''
-  - '§l${shine:[0;2;0][0;25;0][0;25;0][&c;&4]TrypTeam}'
+  - '${shine:[0;2;0][0;25;0][0;25;0][&3;&b]My Server}'
   - ''
 
   # Sets the footer of the player list.
@@ -94,10 +94,10 @@ player-list:
   # - 'My third line'
   footer:
   - ''
-  - '&7Ігровий час: &3%{12h-world-time}'
-  - '&7Час: &3%{server-time}'
-  - '&7Tps: &3%{tps}'
-  - '${right-to-left} &6%{online}&7/&6%{max} &7Онлайн ${left-to-right}'
+  - '&7World time: &b%{12h-world-time}'
+  - '&7Server time: &b%{server-time}'
+  - ''
+  - '${right-to-left} &b%{online}&7/&b%{max} &7Online Players ${left-to-right}'
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -113,10 +113,10 @@ welcome-title:
   enabled: true
 
   # The title shown.
-  title: 'Ласкаво просимо!'
+  title: 'Welcome to My Server'
 
   # The subtitle shown.
-  subtitle: 'Сподіваюся, вам сподобається перебування на сервері'
+  subtitle: 'Hope you enjoy your stay'
 
   # The time it takes for the title to fade into the screen. (In ticks)
   fade-in: 20
@@ -134,10 +134,10 @@ welcome-title:
   first-join:
 
     # The title shown.
-    title: 'Ласкаво просимо!'
+    title: 'Welcome to My Server'
 
     # The subtitle shown.
-    subtitle: 'Це ваш перший раз!'
+    subtitle: 'This is your first time!'
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -153,13 +153,13 @@ welcome-actionbar:
   enabled: true
 
   # The message shown.
-  title: 'Ласкаво просимо!'
+  title: 'Welcome to My Server'
 
   # The time it takes for the message to appear. (In ticks)
   delay: 20
 
   # The message shown when the player joins the server for the first time.
-  first-join: 'Ласкаво просимо на сервер, це ваш перший раз!'
+  first-join: 'Welcome to My Server, this is your first time!'
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -195,11 +195,11 @@ placeholders:
 scoreboard:
 
   # Toggles this feature
-  enabled: false
+  enabled: true
 
   # The title displayed at the very top of the scoreboard
   # WARNING! (1.12 or below ONLY) The title must consist of 32 or less characters (this includes color codes)
-  title: '${shine:[0;2;0][0;25;0][0;25;0][&3&l;&b&l]TrypTeam}'
+  title: '${shine:[0;2;0][0;25;0][0;25;0][&3&l;&b&l]My Server}'
 
   # The lines of the scoreboard (Maximum of 15 lines allowed)
   lines:
@@ -230,7 +230,7 @@ scoreboard:
 announcer:
 
   # Toggles this feature.
-  enabled: false
+  enabled: true
 
   # The announcements
   #
@@ -301,17 +301,17 @@ hooks:
 
 messages:
   # The message shown when a player doesn't have permission to run a command.
-  no-permission: '&cВи не маєте дозволу на виконання цієї команди!'
+  no-permission: '&cYou do not have permission to run that command!'
 
   # The messages from the command /tm version
   command-version:
-    description: 'Надає поточну запущену версію TitleManager'
-    version: '&aСервер працює %version'
+    description: 'Gives you the current running version of TitleManager'
+    version: '&aThe server is running %version'
 
   # The messages from the command /tm reload
   command-reload:
-    description: 'Перезавантажує TitleManager'
-    reloaded: '&aTitleManager перезавантажено'
+    description: 'Reloads TitleManager'
+    reloaded: '&aTitleManager reloaded'
 
   # The messages from the command /tm animations
   command-animations:
@@ -321,43 +321,43 @@ messages:
 
   # The messages from the command /tm scripts
   command-scripts:
-    description: 'Відображає всі завантажені скрипти'
-    format: '&aЗавантажені скрипти (&f%count&a): %скрипти'
+    description: 'Displays all loaded scripts'
+    format: '&aLoaded scripts (&f%count&a): %scripts'
     separator: '&f, &a'
 
   # The messages from the command /tm broadcast
   command-broadcast:
-    description: 'Транслює назву на сервер'
+    description: 'Broadcasts a title to the server'
     usage: '<title>|<title\nsubtitle>'
-    title-sent: '&aВи транслювали заголовок "&r%title&a".'
-    subtitle-sent: '&aВи транслювали субтитри "&r%subtitle&a".'
-    both-sent: '&aВи транслювали заголовки "&r%title&a" "&r%subtitle&a".'
+    title-sent: '&aYou have broadcasted the title "&r%title&a".'
+    subtitle-sent: '&aYou have broadcasted the subtitle "&r%subtitle&a".'
+    both-sent: '&aYou have broadcasted the titles "&r%title&a" "&r%subtitle&a".'
 
   # The messages from the command /tm abroadcast
   command-abroadcast:
-    description: 'Передає назву панелі дій на сервер'
+    description: 'Broadcasts an actionbar title to the server'
     usage: '<title>'
-    sent: '&aВи передали назву панелі дій "&r%title&a".'
+    sent: '&aYou have broadcasted the actionbar title "&r%title&a".'
 
   # The messages from the command /tm message
   command-message:
-    description: 'Надсилає повідомлення вказаному гравцеві'
+    description: 'Sends a title to the specified player'
     usage: '<player> <title>|<title\nsubtitle>'
-    title-sent: '&aВи відправили %player повідомлення "&r%title&a".'
-    subtitle-sent: '&aВи відправили %player субтитри "&r%subtitle&a".'
-    both-sent: '&aВи відправили %player повідомлення "&r%title&a" "&r%subtitle&a".'
-    invalid-player: '&c%player не існує.'
+    title-sent: '&aYou have sent %player the title "&r%title&a".'
+    subtitle-sent: '&aYou have sent %player the subtitle "&r%subtitle&a".'
+    both-sent: '&aYou have sent %player the titles "&r%title&a" "&r%subtitle&a".'
+    invalid-player: '&c%player is not a valid player.'
 
   # The messages from the command /tm amessage
   command-amessage:
-    description: 'Надсилає назву панелі дій зазначеному гравцеві'
+    description: 'Sends an actionbar title to the specified player'
     usage: '<player> <title>'
-    sent: '&aВи надіслали %player the actionbar title "&r%title&a".'
-    invalid-player: '&c%player не існує.'
+    sent: '&aYou have sent %player the actionbar title "&r%title&a".'
+    invalid-player: '&c%player is not a valid player.'
 
   # The messages from the command /tm scoreboard
   command-scoreboard:
-    description: 'Вмикає або вимикає табло.'
+    description: 'Toggles the scoreboard on or off.'
     usage: 'toggle'
-    toggled-on: '&aВи ввімкнули табло.'
-    toggled-off: '&cВи вимкнули табло.'
+    toggled-on: '&aYou have enabled your scoreboard.'
+    toggled-off: '&cYou have disabled your scoreboard.'
