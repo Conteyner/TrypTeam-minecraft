@@ -70,10 +70,10 @@ player-list:
   # - 'Моя третья строка'
   footer:
   - ''
-  - '&7World time: &b%{12h-world-time}'
-  - '&7Server time: &b%{server-time}'
+  - '&7Час: &b%{12h-world-time}'
+  - '&7Ігровий час: &b%{server-time}'
   - ''
-  - '${right-to-left} &b%{online}&7/&b%{max} &7Online Players ${left-to-right}'
+  - '${right-to-left} &b%{online}&7/&b%{max} &7Гравців онлайн ${left-to-right}'
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -89,10 +89,10 @@ welcome-title:
   enabled: true
 
 # Отображаемый заголовок.
-  title: 'Welcome to My Server'
+  title: 'Вітаю'
 
 # Отображаемый субтитр.
-  subtitle: 'Hope you enjoy your stay'
+  subtitle: 'Сподіваємось, вам сподобається'
 
 # Время затухания заголовка на экране. (В тиках)
   fade-in: 20
@@ -110,10 +110,10 @@ welcome-title:
   first-join:
 
   # Отображаемый заголовок.
-    title: 'Welcome to My Server'
+    title: 'Вітаю'
 
     # Отображаемый подзаголовок.
-    subtitle: 'This is your first time!'
+    subtitle: 'Вітаю!'
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -129,13 +129,13 @@ welcome-actionbar:
   enabled: true
 
 # Выводимое сообщение.
-  title: 'Welcome to My Server'
+  title: 'Вітаю'
 
 # Время, необходимое для появления сообщения. (В тиках)
   delay: 20
 
 # Сообщение, показываемое при первом присоединении игрока к серверу.
-  first-join: 'Welcome to My Server, this is your first time!'
+  first-join: 'Вітаю!'
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -151,7 +151,7 @@ placeholders:
   number-format:
 
     # Включает эту функцию.
-    включено: true
+    enabled: true
 
     # Используемый формат.
     format: '#,###.##'
@@ -175,7 +175,7 @@ scoreboard:
 
 # Заголовок, отображаемый в самом верху табло
   # ВНИМАНИЕ! (ТОЛЬКО для версии 1.12 и ниже) Заголовок должен состоять из 32 или менее символов (включая коды цветов)
-  title: '${shine:[0;2;0][0;25;0][0;25;0][&3&l;&b&l]My Server}'
+  title: '${shine:[0;2;0][0;25;0][0;25;0][&3&l;&b&l]Tryp Team}'
 
   # Строки табло (допускается не более 15 строк)
   lines:
@@ -276,63 +276,63 @@ hooks:
 
 messages:
 # Сообщение, показываемое, когда у игрока нет разрешения на выполнение команды.
-  no-permission: '&cYou do not have permission to run that command!'
+  no-permission: '&Ви не маєте дозволу на запуск цієї команди!'
 
 # Сообщения от команды /tm version
   command-version:
-    description: 'Gives you the current running version of TitleManager'
-    version: '&aThe server is running %version'
+    description: 'Показує поточну версію TitleManager'
+    version: '&Сервер запущено %version'
 
   # Сообщения от команды /tm reload
   command-reload:
-    description: 'Reloads TitleManager'
-    reloaded: '&aTitleManager reloaded'
+    description: 'Перезавантажує TitleManager'
+    reloaded: '&aTitleManager перезавантажено'
 
   # Сообщения от команды /tm animations
   command-animations:
-    description: 'Displays all loaded animations'
-    format: '&aLoaded animations (&f%count&a): %animations'
+    description: 'Відображає всі завантажені анімації'
+    format: '&aЗавантажені анімації (&f%count&a): %animations'
     separator: '&f, &a'
 
   # Сообщения от команды /tm scripts
   command-scripts:
-    description: 'Displays all loaded scripts'
-    format: '&aLoaded scripts (&f%count&a): %scripts'
+    description: 'Відображає всі завантажені скрипти'
+    format: '&aЗавантажені скрипти (&f%count&a): %scripts'
     separator: '&f, &a'
 
   # Сообщения от команды /tm broadcast
   command-broadcast:
-    description: 'Broadcasts a title to the server'
+    description: 'Трансляція заголовка на сервер'
     usage: '<title>|<title\nsubtitle>'
-    title-sent: '&aYou have broadcasted the title "&r%title&a".'
-    subtitle-sent: '&aYou have broadcasted the subtitle "&r%subtitle&a".'
-    both-sent: '&aYou have broadcasted the titles "&r%title&a" "&r%subtitle&a".'
+    title-sent: '&aВи транслювали назву "&r%title&a".'
+    subtitle-sent: '&aВи транслювали субтитри "&r%subtitle&a".'
+    both-sent: '&aВи транслювали заголовки "&r%title&a" "&r%subtitle&a".'
 
   # Сообщения от команды /tm abroadcast
   command-abroadcast:
-    description: 'Broadcasts an actionbar title to the server'
+    description: 'Трансляція заголовка панелі дій на сервер'
     usage: '<title>'
-    sent: '&aYou have broadcasted the actionbar title "&r%title&a".'
+    sent: '&aВи транслювали заголовок панелі дій "&r%title&a".'
 
   # Сообщения от команды /tm message
   command-message:
-    description: 'Sends a title to the specified player'
+    description: 'Надсилає заголовок вказаному гравцеві'
     usage: '<player> <title>|<title\nsubtitle>'
-    title-sent: '&aYou have sent %player the title "&r%title&a".'
-    subtitle-sent: '&aYou have sent %player the subtitle "&r%subtitle&a".'
-    both-sent: '&aYou have sent %player the titles "&r%title&a" "&r%subtitle&a".'
+    title-sent: '&aВи надіслали %player назва "&r%title&a".'
+    subtitle-sent: '&aВи надіслали %player підзаголовок "&r%subtitle&a".'
+    both-sent: '&aВи надіслали %player назви "&r%title&a" "&r%subtitle&a".'
     invalid-player: '&c%player is not a valid player.'
 
   # Сообщения от команды /tm amessage
   command-amessage:
-    description: 'Sends an actionbar title to the specified player'
+    description: 'Надсилає заголовок панелі дій вказаному гравцеві'
     usage: '<player> <title>'
-    sent: '&aYou have sent %player the actionbar title "&r%title&a".'
-    invalid-player: '&c%player is not a valid player.'
+    sent: '&aВи надіслали %player заголовок панелі дій "&r%title&a".'
+    invalid-player: '&c%player не є дійсним гравцем.'
 
   # Сообщения от команды /tm scoreboard
   command-scoreboard:
-    description: 'Toggles the scoreboard on or off.'
-    usage: 'toggle'
-    toggled-on: '&aYou have enabled your scoreboard.'
-    toggled-off: '&cYou have disabled your scoreboard.'
+    description: 'Увімкнення або вимкнення табло.'
+    usage: 'перемикач'
+    toggled-on: '&aВи ввімкнули своє табло.'
+    toggled-off: '&cВи вимкнули своє табло.'
